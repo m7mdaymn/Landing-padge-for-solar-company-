@@ -1,0 +1,91 @@
+#hero_section{
+    background-image: url('../images/solar-panels-meadow 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 100px;
+    height: auto;
+    
+}
+.progress-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6rem;
+    margin-top: 90px
+
+   
+}
+
+.progress-label {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 300;  
+}
+.progress-label-1{
+    margin-right: 25px;
+}
+.progress-label{
+    margin-left: 25px;
+}
+
+.progress-bar {
+    width: 200px; 
+    height: 5px;
+    background-color: #575757; 
+    margin: 0 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    width: 50%; 
+    height: 100%;
+    background-color: #ffff; 
+    border-radius: 5px;
+}
+
+.hero-text{
+    width: auto;
+    h1{
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 3.25rem;
+        line-height: 62px;
+        letter-spacing: -2%;
+        margin-bottom: 45px;
+    }
+    p{
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0%;
+        margin-bottom: 45px;
+        max-width: 700px;
+    }
+    .hero-btn button {
+        
+        border: none;
+        border-radius: 109px;
+        padding: 12px 34px;
+        background-color: #3CAB90;
+        margin-right: 20px;
+        transition: 0.3s ease;
+    }
+    .hero-btn button:first-child {
+        background-color: #3CAB90;
+    }
+    
+    .hero-btn button:nth-child(2) {
+        background-color: #FFBB1C;
+
+    }
+    
+    .hero-btn button:hover {
+        opacity: 0.9; 
+        transform: scale(1.1);
+        color: white;
+    }
+
+}

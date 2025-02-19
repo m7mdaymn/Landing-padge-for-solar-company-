@@ -1,0 +1,47 @@
+#section3{
+    background-image: url('../images/8116\ 1\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 505px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    .section3-text{
+       h1{
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 2.625rem;
+        line-height: 50.83px;
+        letter-spacing: -2%;
+        color:#FFFFFF;
+        margin-bottom: 20px;
+       }
+       p{
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        width: 42.2rem;
+       }
+       button{
+        width: 173;
+        height: 41;
+        gap: 10px;
+        border-radius: 109px;
+        padding: 12px 34px ;
+        background-color: #FFBB1C;
+        border: none;
+        transition: 0.3s ease;
+       }
+       button:hover{
+        background-color: #ffbe28c0;
+        color: white;
+        transform: scale(1.1);
+       }
+    }
+}
